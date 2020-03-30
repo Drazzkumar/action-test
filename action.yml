@@ -1,0 +1,12 @@
+name: "S3 static site deploy testing"
+description: "It simple Build the aws S3 bucket for static site,deploy to the static site and comment the url to the PR"
+author: razzkumar
+outputs:
+  url:
+    description: "The simple URL"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: upload-cloud
+  color: green
