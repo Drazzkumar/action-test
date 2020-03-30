@@ -7,7 +7,7 @@ name: Deploy prebuild static site
 on:
   push:
     branches:
-    - dev
+    - do-not-run-already-tested
 
 jobs:
   deploy:

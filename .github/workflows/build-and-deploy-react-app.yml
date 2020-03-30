@@ -7,7 +7,7 @@ name: Create s3,Build and deploy react app
 on:
   push:
     branches:
-    - master
+    - donot-run
 
 jobs:
   deploy:
